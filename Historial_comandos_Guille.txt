@@ -1,0 +1,36 @@
+tree
+cd etc
+cat archivo.txt
+dir
+cd repogit
+dir
+cd UTN-FRA_SO_onBording/
+dir
+tree
+cd ..
+tree
+cat readme
+cat README 
+cd carpeta_compartida/
+cat archivo.txt 
+dir
+cd repogit/TP_AySO/
+grep -v 'nologin' /etc/passwd | head -n 10 | sort -t ':' -k 7 > lista_ordenada
+dir
+git add lista_ordenada 
+git commit -m "ADD: Listado de usuarios ordenada"
+git push origin main
+apropos dump
+git add comando_dump_net 
+git commit -m "ADD: Comando para Capturar y anañizar el trafico de red"
+git push origin main 
+cat <<EOF>> README.md 
+Alumno: Agustín Carmona Fernández
+Division: 315
+Turno: Noche
+EOF
+
+histori -a
+history -a
+cd repogit/TP_AySO/
+history -a
